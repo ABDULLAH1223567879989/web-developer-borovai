@@ -11,7 +11,7 @@ body {
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
-    color: white;
+    color: wheat;
     font-size: 20px;
     font-weight: 700;
     padding: 10px 10px 10px 10px;
@@ -62,7 +62,7 @@ nav a {
 /* head related styles */
 
 .head {
-    background-color: #FFF8F3;
+    background-color:wheat;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -119,7 +119,7 @@ main section{
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: wheat;
     margin: 130px 0;
 }
 .about-info-container{
@@ -144,7 +144,7 @@ main section{
 .skill{
     padding: 30px;
     border-radius: 5px;
-    background: #FFF;
+    background: wheat;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
 }
@@ -189,8 +189,32 @@ margin-bottom: 10px;
 /* footer style */
 footer{
     display: flex;
-    background: #FFF8F3;
+    background: wheat;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
 
 }
+.footer-column{
+    width: 50%;
+}
+
+.contact input [type="text"],.contact input[type="Email"],textarea{
+  
+
+    display: block;
+    margin-bottom: 40px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
+}
+.social-links a {
+    margin-right: 25px;
+
+}
+
+
+
