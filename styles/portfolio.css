@@ -1,11 +1,13 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-    color:#FD6E0A
+
+.text-primary {
+    color: #FD6E0A
 }
-.btn-primary{
+
+.btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
@@ -15,29 +17,100 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
-    list-style:none;
+
+nav li {
+    list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
+}
+
+/* head related styles */
+
+.head {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 500px;
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner.profile {
+    width: 500px;
+
+}
+
+.banner-1 {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-tittle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color:rgb(245, 222, 179);
+    margin: 130px 0;
 }
